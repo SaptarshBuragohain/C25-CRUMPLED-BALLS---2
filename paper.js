@@ -24,7 +24,6 @@ class Paper {
     strokeWeight(4);
     stroke("white")
     fill(255);
-    ellipse(25, 25, 10,10);
     image(this.image, 0, 0, this.width, this.height);
     pop();
   }

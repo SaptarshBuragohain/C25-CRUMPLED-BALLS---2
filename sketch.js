@@ -35,7 +35,6 @@ function draw() {
   bin3.display();
   ground.display();
   paper.display();
-  keyPressed();
   drawSprites();
 
 }
@@ -43,6 +42,6 @@ function draw() {
 
 function keyPressed() {
 	if (keyCode === UP_ARROW) {
-		Matter.Body.applyForce(paper.body,paper.body.position,{x:2,y:-28.5});
+		Matter.Body.applyForce(paper.body,paper.body.position,{x:470,y:-470});
 	}
 }
